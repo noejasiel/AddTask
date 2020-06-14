@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  outline: none;
+  margin: 0;
+}
+
+.conteiner {
+  width: 100%;
+  position: relative;
+  top: 80px;
+}
+.form {
+  width: 100%;
+  /* border: 1px solid yellow; */
+}
+form {
+  /* border: 1px solid tomato; */
+  border-radius: 20px;
+  border: 1px solid #c2bdbd;
+  background-color: #b3aaaa;
+  display: inline-block;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+input {
+  width: 80%;
+  margin: 1.4em auto;
+  border-color: teal;
+  border-radius: 10px;
+}
+input::placeholder {
+  color: rgba(105, 100, 105, 0.933);
+  font-size: 12px;
+}
+.error::placeholder {
+  color: red;
+  font-size: 11px;
+}
+.error {
+  border: 1px solid tomato;
+}
+.textt {
+  height: 40px;
+  border: none;
+}
+
+textarea {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+}
+.submit {
+  width: 75%;
+  height: 40px;
+  background-color: rgb(65, 53, 226);
+  color: white;
+  margin: 1em auto;
+  border: none;
+  border-radius: 15px;
+}
+.submit:hover {
+  background-color: rgb(17, 8, 141);
+}
+
+.conteinerTask {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.Task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #c2bdbd;
+  background-color: #ddb0b0;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  width: 95%;
+  text-align: center;
+  /* border: 1px solid green; */
+  padding: 0.5em 0;
+}
+
+p {
+  /* border: 1px solid yellow; */
+  padding: 0.5em 0;
+  width: 90%;
+  text-align: center;
+}
+.delete {
+  padding: 1em 3em;
+  color: white;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+.delete:hover {
+  background-color: #7e0a25;
+}
