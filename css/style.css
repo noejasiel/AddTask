@@ -54,7 +54,7 @@ input::placeholder {
   position: sticky;
   z-index: 1;
   background-color: #8c6fbbec;
-  height: 80px;
+  height: 30px;
   margin: 1em auto;
   border-radius: 15px;
   display: flex;
